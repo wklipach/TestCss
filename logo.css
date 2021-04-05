@@ -7,8 +7,9 @@
    }
 
   .logo-mobile {
-     width: 222px;
-     height: 202px;
+     position: absolute;
+     width: auto;
+     height: auto;
      margin-left: auto;
      margin-right: auto;
      margin-top: 10vh;

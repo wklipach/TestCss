@@ -3,15 +3,15 @@
      height: 100vh;
      background-color: #222222;
      border: solid 1px red;
-     display: flex;
      justify-content: center;
+      justify-content: right;
+     display: flex;
    }
 
   .logo-mobile {
      position: absolute;
      width: 222px;
      height: 202px;
-     margin-left: 10vw;
      margin-right: auto;
      margin-top: 10vh;
   }

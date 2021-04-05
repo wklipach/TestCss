@@ -1,48 +1,28 @@
+ * {
+     box-sizing: border-box;
+     margin:0;
+     padding:0;
+ }
+
   .container {
+      position: relative;
      width: 100%;
      height: 100vh;
      background-color: #222222;
-     border: solid 1px red;
-     justify-content: center;
-      justify-content: right;
-     display: flex;
-   }
 
-  .logo-mobile {
-     position: absolute;
-     width: 222px;
-     height: 202px;
-     margin-right: auto;
-     margin-top: 10vh;
-  }
-
-  .bg {
-     position: absolute;
-     left: 0;
-     right: 0;
-     top: 0;
-     bottom: 0;
-     background: url("img/bg.svg") no-repeat;
-     background-size: cover;
-     filter: blur(2px);
-  }
-
-  /*
-  .container {
-     position: relative;
-     width: 100%;
-     height: 100vh;
-     background-color: #222222;
-     border: solid 1px red;
    }
 
   .logo-mobile {
       position: absolute;
      width: 222px;
      height: 202px;
-     margin-left: auto;
-     margin-right: auto;
-     margin-top: 10vh;
+      top: 50%;
+
+      margin-top: -111px;
+      left:50%;
+      margin-left: -101px;
+
+
   }
 
   .bg {
@@ -55,5 +35,3 @@
      background-size: cover;
      filter: blur(2px);
   }
-
-  */
